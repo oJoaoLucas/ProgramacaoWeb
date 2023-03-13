@@ -1,0 +1,60 @@
+
+
+:root{
+    --cor--principal:#fff;
+}
+
+body{
+    background-color: antiquewhite  ;
+}
+
+h1 {
+    color: blue;
+    font-size: 60px;
+    background-color: red;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+h2{
+    color: var(--cor--principal);
+    font-size: 50px;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+
+    border-radius: 3% ;
+
+}   
+#foto{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: blue ;
+    font-size: larger;
+    font-style: bold;
+}
+
+h3{
+    color: orange;
+    font-size: 50px;
+    background-color: blue;
+    text-align: center;
+}
+
+#redesocial {
+    text-align: center;
+}
+
+section{
+    width: 60%;
+    margin: auto;
+    background-color:blueviolet;
+    border-radius: 5% ;
+}
