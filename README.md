@@ -2,4 +2,4 @@
 Repositório para subir as atividades desenvolvidas na matéria de programação web 
 
 #Projeto 1: Site LOUD
-![alt text](https://github.com/oJoaoLucas/programacaoweb1/blob/155f8a4fe3bc5d600d703b2288354f23f773752a/PW1/AULA%205%202.0/site%20loud.png)
+![alt text](https://github.com/oJoaoLucas/programacaoweb1/blob/93da85a12be31b69f8bc88a920112a72901d116c/PW1/AULA%205%202.0/site%20loud_aula5.png)
