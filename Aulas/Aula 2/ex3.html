@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 3</title>
+    <link rel="shotcut icon" href="https://pbs.twimg.com/media/EValZQtWoAEaw_a.jpg">
+</head>
+<body>
+<form>
+    <h1>MANUNTENÇÃO DE USUÁRIO DO SISTEMA INTENRO</h1>
+
+    <label for="LOGIN"><strong>LOGIN:</strong></label>
+    <input type="text" name="LOGIN" required>
+
+    <br>
+
+    <label for="SENHA"><strong>SENHA:</strong></label>
+    <input type="password" name="SENHA" required>
+    <br>
+
+    <label for="STATUS"><strong>STATUS:</strong></label>
+    <select name="STATUS" required >
+        <option value="">selecione</option>
+        <option value="INATIVO">INVATIVO</option>
+        <option value="ATIVO">ATIVO</option>
+    </select>
+    <br>
+
+    <label for="Tipo"><strong>Tipo:</strong></label>
+    <INPUT TYPE="radio" NAME="Técnico" VALUE="t"> <strong>Técnico</strong>
+    <INPUT TYPE="radio" NAME="Professor" VALUE="p"> <strong>Professor</strong>
+    <INPUT TYPE="radio" NAME="Aluno" VALUE="a"> <strong>Aluno</strong>
+    <br>
+
+    <label for="Data de criação"><strong>Data de criação:</strong></label>
+    <input id="date" type="date">
+    <br>
+
+    <label for="Perfil"><strong>Perfil:</strong></label>
+    <INPUT TYPE="radio" NAME="convidado" VALUE="t"> <strong>Convidado   </strong>
+    <INPUT TYPE="radio" NAME="ADM" VALUE="t"> <strong>Administrador</strong>
+    <br>  
+    
+    <label for="mensagem"><strong>Observações:</strong></label>
+    <textarea name="Mensagem:" id="" cols=50" rows="10"></textarea> <br>  
+    <label for="Módulos"><strong>Módulos:</strong></label>
+
+    <table>    
+        <tr>
+            <td>   <INPUT TYPE="checkbox" NAME="Compras" > <strong>Compras</strong> 
+                   <INPUT TYPE="checkbox" NAME="Biblioteca" VALUE="b"> <strong>Biblioteca</strong>
+                    <INPUT TYPE="checkbox" NAME="Acadêmico" VALUE="a"> <strong>Acadêmico</strong>
+            </td>
+            <tr>
+            <td>   <INPUT TYPE="checkbox" NAME="Documentação" VALUE="d"> <strong>Documentação</strong> 
+                <INPUT TYPE="checkbox" NAME="Recursos Humanos" VALUE="r"> <strong>Recursos Humanos</strong>
+
+         </td>
+        </tr>
+        </tr>
+ 
+    </table>
+
+
+
+
+    <button style="background-color:chartreuse;" type="submit"> Cadastrar</button>
+    <button style="background-color:red;" type="reset">Excluir</button>
+
+
+</form>
+
+    
+</body>
+</html>

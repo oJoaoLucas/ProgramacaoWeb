@@ -1,0 +1,197 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    padding: 0;
+    margin: 0;
+
+    }
+    body.pagina1 {
+        background-color:rgb(214, 25, 25);
+      }
+      
+      body.pagina2 {
+        background-color:rgb(25, 57, 214);
+      }
+      
+      body.pagina3 {
+        background-color:rgb(25, 214, 148);
+      }
+      body.pagina4 {
+        background-color:rgb(14, 175, 105);
+      }
+
+    .mod{
+        box-shadow: 0px 0px 50px #000000; 
+    }
+    header {
+        background-color: #4800ff;
+        color: #fff;
+        padding: 20px;
+        margin: 0;
+        border: none;
+      }
+    header h1 {
+    margin: 0;
+    font-size: 36px;
+    }
+    
+    header nav {
+    margin-top: 10px;
+    }
+    
+    header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    header nav li {
+    margin-right: 20px;
+    }
+    
+    header nav li:last-child {
+    margin-right: 0;
+    }
+    
+    header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    }
+    
+    .imagem-centralizada {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    }
+    
+    .resumo {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    }
+    
+    .nomes-grupo {
+    margin-top: 30px;
+    text-align: center;
+    }
+    
+    .nomes-grupo p {
+    font-weight: bold;
+    }
+    
+    .nomes-grupo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .nomes-grupo li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    }
+    
+    section.mod {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 2%;
+    }
+    
+    section.mod .content {
+    flex: 1;
+    font-size: 25px;
+    }
+    
+    section.mod .image {
+    flex: 1;
+    text-align: center;
+    }
+    
+    section#intro.mod img,
+    section#dia.mod img,
+    section#desafio.mod img,
+    section#conclusao.mod img,
+    section#importancia.mod img,
+    section#problemas.mod img,
+    section#solucao.mod img,
+    section#vida.mod img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20%;
+    padding-left: 15px;
+    }
+    
+
+
+    #edu img,
+    #agua img,
+    #saude img,
+    #terra img {
+    height: 400px;
+    width: 800px;
+    margin: auto;
+    display: block;
+    margin-top: 70px;
+    
+        box-shadow: 0px 0px 50px #000000; 
+    
+    }
+    
+
+    section.mod .content p {
+        margin-bottom: 10px;
+        line-height: 1.5;
+        }
+        
+        section.mod .content h2 {
+        margin-top: 0;
+        }
+        
+        section.mod .content h3 {
+        margin-top: 30px;
+        }
+        
+        footer {
+        background-color: #4712cb;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 50px;
+        }
+        
+        footer p {
+        margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+        header nav {
+        flex-direction: column;
+        align-items: center;
+        }
+        
+        header nav li {
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+        
+        .imagem-centralizada {
+            margin-top: 20px;
+        }
+        
+        section.mod {
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+        
+        section.mod .image {
+            order: -1;
+            margin-bottom: 20px;
+        }
+    }

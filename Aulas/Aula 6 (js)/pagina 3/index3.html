@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculadora de Troco</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <button id="ctroco">Calcular Troco</button>
+
+    <script>
+         ctroco.addEventListener('click', function() {
+
+        const nomeProduto = prompt('Qual o nome do produto?');
+        const valorProduto = parseFloat(prompt('Qual o valor do produto?'));
+        const valorPago = parseFloat(prompt('Qual o valor dado para pagar o produto?'));
+    
+        const troco = (valorPago - valorProduto).toFixed(2);
+    
+        alert(`Produto: ${nomeProduto}\nValor do Produto: R$${valorProduto.toFixed(2)}\nValor Pago: R$${valorPago.toFixed(2)}\nTroco: R$${troco}`);
+      });
+    </script>
+    
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
