@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lâmpada</title>
+</head>
+<body>
+	<img id="lampada" src="lamp_off.gif" alt="Lâmpada Apagada">
+	<br>
+	<button onclick="ligar()">Ligar</button>
+	<button onclick="desligar()">Desligar</button>
+
+	<script>
+		function ligar() {
+			document.getElementById("lampada").src = "lamp_on.gif";
+		}
+
+		function desligar() {
+			document.getElementById("lampada").src = "lamp_off.gif";
+		}
+	</script>
+</body>
+</html>

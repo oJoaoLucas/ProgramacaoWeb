@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha página</title>
+	<script>
+		function mudarCor() {
+          var paragrafos = document.getElementsByTagName("p");
+             for (var i = 0; i < paragrafos.length; i++) {
+          if (i % 2 !== 0) {
+            paragrafos[i].style.backgroundColor = "yellow";
+        }
+    }
+}
+
+		window.onload = function() {
+			var primeiroParagrafo = document.getElementsByTagName("p")[0];
+			var segundoParagrafo = document.getElementsByTagName("p")[1];
+			var terceiroParagrafo = document.getElementsByTagName("p")[2];
+			var quartoParagrafo = document.getElementsByTagName("p")[3];
+			var quintoParagrafo = document.getElementsByTagName("p")[4];
+			var sextoParagrafo = document.getElementsByTagName("p")[5];
+			primeiroParagrafo.innerHTML = "Aula de Programação para Web";
+			segundoParagrafo.style.fontSize = "40px";
+			terceiroParagrafo.style.color = "blue";
+			quartoParagrafo.style.textAlign = "center";
+			quintoParagrafo.style.color = "green";
+			quintoParagrafo.style.fontSize = "10px";
+			sextoParagrafo.innerHTML = "<strong>JavaScript não é Java</strong>";
+			sextoParagrafo.style.color = "red";
+		}
+	</script>
+</head>
+<body>
+	<p>Conteúdo do primeiro parágrafo</p>
+	<p>Conteúdo do segundo parágrafo</p>
+	<p>Conteúdo do terceiro parágrafo</p>
+	<p>Conteúdo do quarto parágrafo</p>
+	<p>Conteúdo do quinto parágrafo</p>
+	<p>Conteúdo do sexto parágrafo</p>
+	<button onclick="mudarCor()">Mudar cor de fundo dos pares</button>
+</body>
+</html>

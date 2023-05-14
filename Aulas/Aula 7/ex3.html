@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lâmpada</title>
+	<script>
+		function mudarEstado() {
+			var imagem = document.getElementById("lampada");
+			var botao = document.getElementById("botao");
+
+			if (imagem.src.endsWith("lamp_off.gif")) {
+				imagem.src = "lamp_on.gif";
+				botao.innerHTML = "Desligar";
+			} else {
+				imagem.src = "lamp_off.gif";
+				botao.innerHTML = "Ligar";
+			}
+		}
+	</script>
+</head>
+<body>
+	<img id="lampada" src="lamp_off.gif">
+	<button id="botao" onclick="mudarEstado()">Ligar</button>
+</body>
+</html>
